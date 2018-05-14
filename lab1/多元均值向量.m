@@ -1,0 +1,1 @@
+M = mean(magic04)

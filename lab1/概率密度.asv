@@ -1,0 +1,6 @@
+x=magic04(:,1)
+[y,xi] = ksdensity(x);
+plot(xi,y, 'bo')
+hold on
+yn=normpdf(xi,0,1);
+plot(xi,yn,'b')
